@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - assigns a random number to variable n
- * executes and prints the number
- * Return: 0 (if successful)
- */
+ * main - assigns a random number to n
+ * Executes and prints the number
+ * Return: 0 (if success)
+*/
 int main(void)
 {
 	int n;
@@ -21,7 +21,7 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else 
+	else
 	{
 		printf("%d is negative\n", n);
 	}
